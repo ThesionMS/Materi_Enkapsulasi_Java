@@ -13,7 +13,7 @@ Empat pilar konsep berorientasi objek, yaitu:
 - Pembungkusan (_Encapsulation_).  
 - Banyak bentuk (_Polymorphism_).
 
-![[Pasted image 20241018111633.png]]
+![[[Pasted image 20241018111633.png](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241018111630.png)]]
 
 
 Empat pilar inilah yang menjadi inti dari konsep pemrograman berorientasi objek, empat pilar tersebut harus didukung secara penuh oleh bahasa pemrograman. Hampir semua bahasa pemrograman yang ada saat ini mendukung secara penuh konsep pemrograman berorientasi objek.
