@@ -320,10 +320,10 @@ public class Main {
 
 # Referensi
 
-https://github.com/Monashr/PBO-2024-main/blob/master/W03_Enkapsulasi/Materi.md
-https://medium.com/@harafsan22/enkapsulasi-pengertian-contoh-dan-manfaatnya-292287d8f406
-https://agussuratna.net/2023/02/tutorial-java-enkapsulasi-encapsulation-pada-pemrograman-berorientasi-objek/
-https://medium.com/@thoyibatulmaulidaaa/mengenal-materi-oop-encapsulation-d31df670e4aa
-https://medium.com/@ignsuryantara/pengantar-pemrograman-berorientasi-objek-dengan-java-85535865faa9
-https://drive.google.com/file/d/1JTYkRY_neYQh2kXkgvSYvux7RUDVU6Mu/view
-[OOP : Memahami Object Class Properti dan Method](https://www.dumetschool.com/blog/OOP-Memahami-Object-Class-Properti-dan-Method)
+- https://github.com/Monashr/PBO-2024-main/blob/master/W03_Enkapsulasi/Materi.md
+- https://medium.com/@harafsan22/enkapsulasi-pengertian-contoh-dan-manfaatnya-292287d8f406
+- https://agussuratna.net/2023/02/tutorial-java-enkapsulasi-encapsulation-pada-pemrograman-berorientasi-objek/
+- https://medium.com/@thoyibatulmaulidaaa/mengenal-materi-oop-encapsulation-d31df670e4aa
+- https://medium.com/@ignsuryantara/pengantar-pemrograman-berorientasi-objek-dengan-java-85535865faa9
+- https://drive.google.com/file/d/1JTYkRY_neYQh2kXkgvSYvux7RUDVU6Mu/view
+- [OOP : Memahami Object Class Properti dan Method](https://www.dumetschool.com/blog/OOP-Memahami-Object-Class-Properti-dan-Method)
