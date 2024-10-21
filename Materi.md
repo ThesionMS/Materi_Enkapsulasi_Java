@@ -25,7 +25,7 @@ OOP merupakan cara yang paling efisien untuk menulis program komputer yang sanga
 
 Selanjutnya kita akan membahas beberapa konsep dasar yang biasanya terdapat pada bahasa pemograman yang mendukung OOP :
 
-![[Pasted image 20241020130829.png]]
+![Gambar 2](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020130829.png)
 
 **Object**
 
