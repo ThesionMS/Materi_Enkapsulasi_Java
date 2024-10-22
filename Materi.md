@@ -67,6 +67,7 @@ program. Cara untuk melindungi data yaitu dengan menggunakan access modifiers (h
 Ada 4 hak akses yang tersedia, yaitu default, public, protected, private.
 
 Untuk lebih jelasnya, silahkan lihat kedua table berikut ini :
+
 ![Gambar 4](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241018113049.png)
 
 ### Proses encapsulation terdiri dari langkah-langkah berikut :
@@ -80,6 +81,7 @@ Untuk lebih jelasnya, silahkan lihat kedua table berikut ini :
 ![Gambar5](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241019212213.png)
 
 Enkapsulasi 1 Perhatikan kode program berikut:
+
 ![Gambar 6](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020132623.png)
 
 Yang di garis bawahi pada kode di atas adalah modifier. Modifier ini nanti akan menentukan batasan akses member dan class.
@@ -117,7 +119,9 @@ Pada class Person terdapat dua member, yaitu:
 - atribut name
 - method changeName()
 Kedua member tersebut kita berikan modifier public, artinya mereka akan bisa diakses dari mana saja. Namun, class Person tidak kita berikan modifier. Maka yang akan terjadi adalah class tersebut tidak akan bisa diimpor (diakses) dari luar package.
+
 ![Gambar 4](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020133643.png)
+
 Class Person berada di dalam package belajarjava, lalu kita coba akses dari Author.java yang berada dalam package latihan, maka yang akan terjadi adalah error seperti gambar di atas. Solusinya supaya bisa diakses dari luar package, kita harus menambahkan modifier public ke dalam class Person.
 
 Maka error akan menghilang dan class Person bisa diimpor dari package manapun. Pada class diagram, modifier public digambarkan dengan simbol plus (+), contoh:
@@ -134,6 +138,7 @@ public class Person {
 }
 ```
 Semua member dalam class Player memiliki modifier public, perhatikan simbol + yang ada di depannya
+
 ![Gambar 8](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020133835.png)
 
 ### 2. Private
@@ -163,9 +168,11 @@ Person mPerson = new Person();
 mPerson.name = "Agus Suratna"; // Akan menghasilkan error
 ```
 Maka Hasilnya akan error seperti berikut:
+
 ![Gambar 9](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020134254.png)
 
 Supaya bisa mengakses member private dari luar class, kita bisa memanfaatkan method setter dan getter. Karena method ini akan selalu diberikan modifier public.
+
 ![Gambar 10](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020134310.png)
 
 Contoh untuk mengakses method setter dan getter dari modifier Private :
@@ -184,6 +191,7 @@ public class BelajarJava {
 ```
 
 Pada class diagram, modifier private digambarkan dengan simbol minus(-)
+
 ![Gambar 11](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020134443.png)
 
 ### 3. Protected
@@ -228,9 +236,11 @@ public class Author {
 ```
 
 Maka akan terjadi error
+
 ![Gambar 12](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020134710.png)
 
 Pada class diagram (di StarUML), modifier protected digambarkan dengan tanda pagar(#)
+
 ![Gambar 13](https://github.com/ThesionMS/Materi_Enkapsulasi_Java/blob/main/Gambar/Pasted%20image%2020241020134710.png)
 
 ## **5.2 Setter dan Getter**
